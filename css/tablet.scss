@@ -643,9 +643,13 @@ and (max-device-width : 1199px) {
   .order-md {
     span {
       left: 0;
-      padding-top: 130px !important;
+      padding-top: 115px !important;
       font-size: 1em !important;
     }
+  }
+
+  .blog {
+    margin-top: 0;
   }
 
   /* -- BASKET PAGE -- */
@@ -711,6 +715,10 @@ and (max-device-width : 1199px) {
     line-height: 35px;
   }
 
+  .citybackground .contacts {
+    margin-top: 0;
+  }
+
     /* -- PRICE PAGE -- */
 
   .citybackground {
@@ -720,7 +728,7 @@ and (max-device-width : 1199px) {
     }
 
     .breadcrumb {
-      margin-bottom: 200px !important;
+      margin-bottom: 230px !important;
     }
 
     .catalog-selector {
@@ -761,10 +769,6 @@ and (max-device-width : 1199px) {
     /* -- PRICE PAGE -- */
 
   .citybackground {
-    .breadcrumb {
-      margin-bottom: 120px !important;
-    }
-
     h1 {
       left: 45% !important;
     }

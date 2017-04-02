@@ -52,6 +52,7 @@ and (max-device-width : 767px) {
 
       .basket {
         float: right;
+        margin-top: -10px;
       }
     }
   }
@@ -518,14 +519,14 @@ and (max-device-width : 767px) {
 
       .location {
         position: relative;
-        margin-left: -11px;
+        margin-left: -30px;
         margin-top: 25px;
         color: #fff;
       }
 
       .e-contacts {
         color: #fff;
-        margin-left: -44px;
+        margin-left: -27px;
         margin-top: 35px;
       }
 
@@ -571,6 +572,10 @@ and (max-device-width : 767px) {
       left: 0;
       padding-top: 130px !important;
       font-size: 1em !important;
+    }
+
+    &:last-child {
+      margin-bottom: 40px;
     }
   }
 
@@ -663,7 +668,7 @@ and (max-device-width : 767px) {
 
   .blog .blog-text h3 {
     top: 17px !important;
-    left: 0px !important;
+    left: 15px !important;
     font-size: 1.5em !important;
     line-height: 30px !important;
   }
@@ -772,7 +777,22 @@ and (max-device-width : 767px) {
       left: 41% !important;
     }
 
+    .catalog {
+      left: 11% !important;
+    }
+
+    .catalog-zhbi {
+      left: 41% !important;
+    }
+
+    .catalog-contacts {
+      left: 33% !important;
+    }
+
     .zhbi-badge {
+      margin: 10px auto;
+      max-width: 90%;
+
       span {
         font-size: 1.5em !important;
       }
@@ -804,10 +824,6 @@ and (max-device-width : 767px) {
   }
 
   .citybackground  {
-    h1 {
-      left: 30% !important;
-    }
-
     .thanks-container {
       margin-top: 50px !important;
 
