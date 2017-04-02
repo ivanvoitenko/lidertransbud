@@ -1,0 +1,182 @@
+.citybackground {
+  h1 {
+    line-height: 60px;
+    left: 43%;
+  }
+
+  .basket {
+    margin-top: 250px;
+    padding: 16px;
+    background: #fff;
+
+
+    .position-price,
+    .position-quantity {
+      text-align: center;
+    }
+
+    .position-cost {
+      padding-left: 100px;
+    }
+
+    .tabled {
+      margin-left: 1px;
+      margin-right: 1px;
+      line-height: 48px;
+      font-size: 1.4em;
+    }
+
+    .table-header {
+      background: #e6b43e;
+
+      .position-cost {
+        padding-left: 0;
+        text-align: right;
+      }
+    }
+
+    .table-type {
+      background: #4e2751;
+      color: #fff;
+    }
+
+    .table-item {
+      font-size: 1.3em;
+
+      .position-cost {
+        .btn.to-delete {
+          height: 34px;
+          width: 34px;
+          cursor: pointer;
+          background: transparent url('img/plus-minus-delete.png') no-repeat center right;
+        }
+      }
+    }
+
+    .table-item:nth-child(even) {
+      background: #f2f2f2;
+    }
+
+    .table-item {
+      transition: .3s;
+
+      &:hover {
+        transform: translateY(-3px);
+        transition: .3s;
+        box-shadow: 10px 10px 10px -1px rgba(0,0,0,0.2);
+      }
+    }
+
+    .table-summary {
+      margin-top: 5px;
+      background: #4e2751;
+      color: #fff;
+    }
+
+    .count {
+      &:focus {
+        outline: none;
+      }
+
+      .input-group {
+        height: 48px;
+
+        &:focus {
+          outline: none;
+        }
+
+        .input-group-btn:focus {
+          outline: none;
+        }
+
+        button {
+          outline: none;
+
+          &:focus {
+            outline: none;
+          }
+        }
+
+        .btn.minus {
+          cursor: pointer;
+          background: transparent url('img/plus-minus-delete.png') no-repeat center left;
+        }
+
+        .btn.plus {
+          cursor: pointer;
+          background: transparent url('img/plus-minus-delete.png') no-repeat center;
+        }
+
+        .form-control {
+          text-align: center;
+          border: 1px solid #fff;
+          height: 26px;
+          margin-top: 10px;
+          padding: 0;
+          font-family: inherit;
+          font-size: 1em;
+        }
+      }
+    }
+  }
+
+  .form-container {
+    margin-top: 65px;
+    padding: 16px;
+
+    .oreder-form {
+      background: #e6b43e;
+
+      h3 {
+        padding-top: 30px;
+        text-align: center;
+        font-size: 2em;
+      }
+
+      p {
+        text-align: center;
+        font-size: 1.15em;
+      }
+
+      .form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+        margin: 0 30px;
+        height: 130px;
+
+        .form-control {
+          height: 50px;
+          border: none;
+          border-radius: 0;
+          color: #000;
+        }
+
+        .btn-order {
+          cursor: pointer;
+          height: 50px;
+          width: 100%;
+          border: none;
+          border-radius: 0;
+          color: #fff;
+          background: #4e2751;
+
+          &:active, &:focus {
+            outline: none;
+          }
+        }
+      }
+
+      .star-comment {
+        padding-left: 57px;
+        font-size: .8em
+      }
+
+      .bottom-p {
+        padding-top: 30px;
+        padding-bottom: 50px;
+      }
+    }
+  }
+}

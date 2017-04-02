@@ -1,0 +1,33 @@
+.citybackground {
+  h1 {
+    line-height: 50px;
+    left: 43%;
+  }
+
+  .contacts {
+    margin-top: 250px;
+    padding: 16px;
+    background: #fff;
+
+    .tabled {
+      margin-left: 1px;
+      margin-right: 1px;
+      line-height: 48px;
+      font-size: 1.4em;
+
+      .name {
+        text-align: center;
+        background: #e6b43e;
+      }
+
+      .cntct {
+        font-size: .9em;
+        line-height: 50px;
+      }
+
+      .tel {
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.citybackground {
+  h1 {
+    line-height: 60px;
+    left: 43%;
+  }
+
+  .thanks-container {
+    margin-top: 250px;
+    padding: 16px;
+
+    .thanks {
+      padding: 40px 0 50px 0;
+      background: #e6b43e;
+
+      h2 {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      p {
+        font-size: 1.2em;
+        text-align: center;
+      }
+
+      .socialink-frame {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 250px;
+        background: #fff;
+      }
+    }
+  }
+}
